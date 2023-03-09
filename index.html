@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  <body style="background-color:black">
+  <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=1280 height=720></canvas>
       <div id="unity-loading-bar">
@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Spellthief.loader.js";
+      var loaderUrl = buildUrl + "/SpellthiefWebhosting.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Spellthief.data",
-        frameworkUrl: buildUrl + "/Spellthief.framework.js",
-        codeUrl: buildUrl + "/Spellthief.wasm",
+        dataUrl: buildUrl + "/SpellthiefWebhosting.data",
+        frameworkUrl: buildUrl + "/SpellthiefWebhosting.framework.js",
+        codeUrl: buildUrl + "/SpellthiefWebhosting.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "MSPaintBobRoss",
         productName: "Spellthief",

@@ -4,19 +4,22 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Spellthief</title>
-    <div style="padding:25px; color:aliceblue">
-      <h1 style="font-size:52px; color:aliceblue; margin:0; padding:25px; text-align:center;">Spellthief</h1>
-      <h2 style="font-size:20px; color:aliceblue; margin:0; padding:25px; padding-top:0px; text-align:center;">
-        M1: Fire spell -- M2: Steal Spell -- Space: Dodge -- Q: Swap spell slots -- Esc: Pause
-      </h2>
-    
-    </div>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     
   </head>
-  <body style="background-color:black">
-    <div id="unity-container" class="unity-desktop">
+  <body style="background-color:black;">
+    <div id="title-bar" style="margin:0; padding:5px; color:aliceblue;">
+      <h1 style="font-size:52px; color:aliceblue; margin:0; padding:0px; text-align:center;">Spellthief</h1>
+      <h2 style="font-size:20px; color:aliceblue; margin:0; padding:0; text-align:center;">
+        Steal spells from your enemies after they cast them!
+      </h2>
+      
+      <h2 style="font-size:20px; color:aliceblue; margin:0; padding:0; padding-top:25px; text-align:center;">
+        M1: Fire  --  M2: Steal  --  Space: Dodge  --  Q: Swap spell slots  --  Esc: Pause
+      </h2>
+    </div>
+    <div id="unity-container" class="unity-desktop" style="top:525px;">
       <canvas id="unity-canvas" width=1280 height=720></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>

@@ -6,10 +6,26 @@
     <title>Unity WebGL Player | Spellthief</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    
   </head>
-  <body>
+  <body style="background-color:black;">
+    <div id="title-bar" style="margin:0; padding:5px; color:aliceblue;">
+      <h1 style="font-size:52px; color:aliceblue; margin:0; padding:0px; text-align:center;">Spellthief</h1>
+      <h2 style="font-size:20px; color:aliceblue; margin:0; padding:0; text-align:center;">
+        Steal spells from your enemies after they cast them!
+      </h2>
+      
+      <h2 style="font-size:20px; color:aliceblue; margin:0; padding:0; padding-top:15px; text-align:center;">
+        <img src="Images/icons8-wasd-64.png" width="32px" height="32px">: Move &emsp;
+        <img src="Images/icons8-left-click-30.png">: Fire &emsp; 
+        <img src="Images/icons8-right-click-30.png">: Steal &emsp; 
+        <img src="Images/icons8-space-key-50.png" width="40px" height="30">: Dodge &emsp; 
+        <img src="Images/icons8-mouse-scrolling-50.png" width="30px" height="auto">: Select &emsp; 
+        <img src="Images/icons8-esc-50.png" width="30px" height="auto">: Pause
+      </h2>
+    </div>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1280 height=720></canvas>
+      <canvas id="unity-canvas" width=1920 height=1080></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
